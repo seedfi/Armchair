@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Armchair. All rights reserved.
 //
 
+#if !os(macOS)
 import UIKit
 import XCTest
 import Armchair
@@ -36,3 +37,4 @@ class ArmchairTests: XCTestCase {
     }
     
 }
+#endif
